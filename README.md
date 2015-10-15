@@ -1,4 +1,4 @@
-# This is a plugin that works between ElasticSearch and Nagios. This plugin takes status report from ElasticSearch and puts it into Nagios. This plugin is specifically for Gunicorn working with statsd. Statsd takes data from Gunicorn and posts it into ElasticSearch. Then this plugin takes required data from the elasticsearch and transforms it for nagios. It tells Nagios states of workers working in Gunicorn, request rate that Gunicorn is facing, request ruration that Gunicorn is taking.
+This is a plugin that works between ElasticSearch and Nagios. This plugin takes status report from ElasticSearch and puts it into Nagios. This plugin is specifically for Gunicorn working with statsd. Statsd takes data from Gunicorn and posts it into ElasticSearch. Then this plugin takes required data from the elasticsearch and transforms it for nagios. It tells Nagios states of workers working in Gunicorn, request rate that Gunicorn is facing, request ruration that Gunicorn is taking.
 
 The file gets installed at '/usr/local/bin'
 
